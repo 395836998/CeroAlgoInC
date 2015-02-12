@@ -32,6 +32,10 @@ int main(){
 			}
 		}
 		printf("%d %d\n", p, q);
+		for(i=0; i<N; i++){
+			printf("%d ", id[i]);
+		}
+		printf("\n");
 	}
 
 	return 0;
